@@ -13,7 +13,7 @@ if(!$con)
 mysqli_select_db($con, $database);
 
 
-
+print_r(error_get_last());
 ?>
 
 
