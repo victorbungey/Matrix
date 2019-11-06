@@ -1,12 +1,11 @@
-<style type="text/css">
-
-	
-</style>
-<script type="text/javascript">
-		
-</script>
 <html>
 <head>
+		<script>
+				!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+				analytics.load("xieWPTe9Z7pVcr5Gda9yJm3vWa4SMT5b");
+				analytics.page();
+				}}();
+		</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -48,24 +47,58 @@
 				<h2>Our ventures currently</h2>
 			</div>	
 		</div>
+		<div class="matrix-solutions">
+			<h3 style="color: aqua ;">Matrix Solutions</h3>
+		</div>
+		<div id="Solutions">
+			<div class="solution1">	
+					<img class="omni1" src="C:\wamp64\www\matrix\images\Omni 1.PNG" >
+					<h3>Omnichannel Helpdesk and Complaint Management solution</h3>
+					<p>	
+							Customers always want to use a channel of their convinience to make complaints or give feedback based on a product or service provided.
+							Empower your customers using our omnichannel platform that supports multiple channels, at the same time giving you control over 
+							<br> business without missing out on anything...<a href="C:\wamp64\www\matrix\Product sumB.docx">Learn more</a>
+					</p>
+			</div>
+			<div class="solution2">
+					<img class="omni2" src="C:\wamp64\www\matrix\images\Omni 1.PNG" >
+					<h3>Omnichannel Helpdesk and Complaint Management solution</h3>
+					<p>
+							Customers always want to use a channel of their convinience to make complaints or give feedback based on a product or service provided.
+							Empower your customers using our omnichannel platform that supports multiple channels, at the same time giving you control over 
+							<br> business without missing out on anything...<a href="C:\wamp64\www\matrix\Product sumB.docx">Learn more</a>		
+					</p>
+					
+			</div>	
+			<div class="solution3">
+					<img class="omni3" src="C:\wamp64\www\matrix\images\Omni 1.PNG" >
+					<h3>Omnichannel Helpdesk and Complaint Management solution</h3>
+					<p>
+							Customers always want to use a channel of their convinience to make complaints or give feedback based on a product or service provided.
+							Empower your customers using our omnichannel platform that supports multiple channels, at the same time giving you control over 
+							<br> business without missing out on anything...<a href="C:\wamp64\www\matrix\Product sumB.docx">Learn more</a>		
+					</p>
+					
+			</div>
+		</div>
 
 		<div class="column2">
 			<h2>Leave us a feedback</h2>
-			<form action="action_page.php">
+			<form  method="POST" action="insert.php">
 				<label for="fname">First Name</label>
-				<input type="text" id="fname" name="firstname" placeholder="your first name...">
+				<input type="text" id="fname" name="firstname" placeholder="your first name..." required>
 						
 				<label for="lname">Last Name</label>
-				<input type="text" id="lname" name="lastname" placeholder="Your last name...">
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
 
-				<label for="country">Country</label>
+				<label for="country" required >Country</label>
 				<select id="country" name="country">
 					<option value="kenya"> Kenya</option>
 					<option value="uganda"> Uganda</option>
 					<option value="australia"> Australia</option>
 					<option value=" tanzania"> Tanzania</option>
 				</select>
-				<label for="subject"> Subject</label>
+				<label for="subject" required> Subject</label>
 				<textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
 
 				<input type="submit" value="Submit">
@@ -103,7 +136,15 @@
 					<a href="#" class="fa fa-instagram"></a>
 				</div>
 		</div>
-<script>
+		<script>
+	window.fwSettings={
+	'widget_id':48000000286
+	};
+	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
+</script>
+<script type='text/javascript' src='https://widget.freshworks.com/widgets/48000000286.js' async defer></script>
+
+		<script>
 			function initFreshChat() {
 			  window.fcWidget.init({
 				token: "cafc4eaf-90e0-4e47-93fd-b06beacce2d8",
@@ -128,7 +169,6 @@
 			}
 			function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
 		</script>
-	
 	</body>
 	
 </html>
